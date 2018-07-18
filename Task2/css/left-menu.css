@@ -2,5 +2,9 @@
     border: 1px solid chartreuse;
     width: 344px;
     height: 529px;
-    float: left;
+
+}
+.left-menu ul{
+    display: flex;
+    flex-direction: column;
 }

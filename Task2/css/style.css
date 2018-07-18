@@ -9,8 +9,10 @@ body{
     padding: 0px;
 }
 .container{
-    width: 1280px;
+    width: 1480px;
+    height: 1282px;
     border: 1px solid blue;
+    margin: 0px auto;
 
 }
 ul {
