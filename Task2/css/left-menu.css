@@ -1,10 +1,12 @@
 .navigation-left{
-    border: 1px solid chartreuse;
     width: 344px;
     height: 529px;
 
 }
 .left-menu ul{
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    border: 1px solid #090305;
+    width: 344px;
+    height: 399px;
+    margin-top: 51px;
 }
