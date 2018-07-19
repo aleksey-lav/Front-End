@@ -37,7 +37,7 @@
 }
 
 /* Подсветка наведденого пункта */
-.left-menu-li a:hover{
+.left-menu-li:hover{
     background: #dcdcdc;
     color:  #000000;
     font-size: 26.99px;
