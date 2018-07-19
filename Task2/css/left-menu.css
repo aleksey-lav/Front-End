@@ -1,12 +1,48 @@
-.navigation-left{
-    width: 344px;
-    height: 529px;
 
-}
-.left-menu ul{
-    /*display: flex;*/
+.left-menu{
+
     border: 1px solid #090305;
     width: 344px;
     height: 399px;
     margin-top: 51px;
+
+
 }
+.left-menu-ul{
+
+}
+.left-menu-li {
+    display: block;
+    padding-left: 44px;
+}
+
+
+
+
+.left-menu-li{
+    display:block;
+    line-height:32px;
+
+    /*margin:7px 0;*/
+
+
+}
+.left-menu-li a{
+    display:block;
+    line-height:32px;
+    color:  #485863;
+    font-size: 26.99px;
+    font-weight: 400;
+
+}
+
+/* Подсветка наведденого пункта */
+.left-menu-li a:hover{
+    background: #dcdcdc;
+    color:  #000000;
+    font-size: 26.99px;
+    font-weight: 400;
+
+
+}
+
