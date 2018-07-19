@@ -1,48 +1,33 @@
 
 .left-menu{
 
-    border: 1px solid #090305;
+    border: 2px solid #090305;
     width: 344px;
     height: 399px;
     margin-top: 51px;
-
-
+    float: left;
 }
-.left-menu-ul{
-
-}
-.left-menu-li {
-    display: block;
-    padding-left: 44px;
-}
-
-
-
-
 .left-menu-li{
     display:block;
-    line-height:32px;
-
-    /*margin:7px 0;*/
-
-
+    line-height: 80px;
+    padding-left: 44px;
 }
 .left-menu-li a{
     display:block;
-    line-height:32px;
     color:  #485863;
     font-size: 26.99px;
     font-weight: 400;
-
 }
-
 /* Подсветка наведденого пункта */
 .left-menu-li:hover{
     background: #dcdcdc;
+    font-size: 26.99px;
+    font-weight: 400;
+}
+.left-menu-li a:hover{
+    padding-left: 25px;
     color:  #000000;
     font-size: 26.99px;
     font-weight: 400;
-
-
 }
 
