@@ -1,0 +1,27 @@
+@import "content.css";
+@import "header-menu.css";
+@import "left-menu.css";
+@import "footer.css";
+@import "logo.css";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Myriad Pro";
+}
+.container{
+    width: 1480px;
+    height: 1282px;
+    margin: 0 auto;
+
+
+}
+ul {
+    list-style: none;
+
+
+}
+a{
+    text-decoration: none;
+    color: #090305;
+}
