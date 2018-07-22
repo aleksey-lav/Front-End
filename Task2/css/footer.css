@@ -1,0 +1,38 @@
+.footer{
+    width: 1280px;
+    height: 69px;
+    background: #b6b9bc;
+    margin-top: 250px;
+
+}
+.footer__menu{
+    padding: 20px 44px;
+    display: inline-block;
+
+}
+.footer__menu__li {
+    display: inline;
+
+}
+.footer__menu__li a{
+    padding: 10px;
+
+    color:  #0c1927;
+    font-size: 28px;
+    font-weight: 400;
+    
+}
+.footer__menu__li a:hover{
+
+    color:  #3181a6;
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.copywright{
+    color:  #010000;
+    font-size: 24px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 80px;
+}

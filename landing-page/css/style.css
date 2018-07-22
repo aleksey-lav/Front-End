@@ -1,0 +1,23 @@
+/**{*/
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+/*}*/
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.hero{
+    background-image: url("../img/hero-1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.hero__text{
+    padding-top: 50vh;
+    color: #ffffffff;
+}
+.hero__text h2, h1{
+    text-transform: uppercase;
+}
+.hero__text
