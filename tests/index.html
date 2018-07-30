@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Пример создания формы с полями ввода</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>Бронирование номера</legend>
+
+        <!-- текстовые поля ввода -->
+        <input type="text" placeholder="Ф.И.О">
+        <input type="tel" placeholder="Телефон"><br><br>
+        <input type="text" placeholder="Дата заезда">
+
+        <!-- выпадающий список -->
+        <select>
+            <option value="month">Одноместный</option>
+            <option value="month">Двухместный</option>
+            <option value="month">Люкс</option>
+        </select><br><br>
+
+        <!-- кнопка отправки формы -->
+        <input type="submit" value="Забронировать">
+    </fieldset>
+</form>
+</body>
+</html>
