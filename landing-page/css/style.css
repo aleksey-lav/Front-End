@@ -1,6 +1,7 @@
 body {
     background-image: url("../img/Layer-20.jpg");
     background-repeat: repeat;
+    font-family: "Lato", sans-serif;
 }
 
 .container {
@@ -17,7 +18,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
+h2, h3 {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -28,6 +29,7 @@ p {
 }
 
 .hero {
+    position: relative;
     background-image: url("../img/Layer-21.jpg");
     height: 100vh;
     background-size: cover;
@@ -35,8 +37,9 @@ p {
 }
 
 .hero__text {
+    position: absolute;
+    bottom: 210px;
     color: #fff;
-    padding-top: 50vh;
 }
 
 .hero__text h2 {
@@ -50,6 +53,8 @@ p {
 }
 
 .hero__header {
+    position: absolute;
+    bottom: 55px;
     display: inline-block;
     padding: 50px 30px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -61,9 +66,18 @@ p {
 .text-orange {
     color: #f1ad1d;
 }
+
 .what-they-say {
     padding: 75px 0;
     text-align: center;
+}
+p.section-subheader:after {
+    content: '';
+    display: block;
+    margin: 55px auto;
+    width: 60px;
+    height: 3px;
+    background-color: #f1ad1d;
 }
 
 .section-header {
@@ -82,12 +96,18 @@ p {
 .navbar {
     padding: 75px 0;
 }
-.navbar .container{
+
+.navbar .container {
     padding-bottom: 20px;
     border-bottom: 3px solid #f1ad1d;
 }
 
 .navbar-logo {
+    position: relative;
+    bottom: -15px;
+}
+
+/*.navbar-logo {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #f1ad1d;
@@ -95,7 +115,7 @@ p {
     text-transform: uppercase;
     float: left;
     padding-top: 10px;
-}
+}*/
 
 .navbar-nav {
     padding-left: 0;
@@ -103,7 +123,7 @@ p {
     float: right;
 }
 
-.navbar-nav li{
+.navbar-nav li {
     list-style: none;
     display: inline-block;
     font-size: 18px;
@@ -111,36 +131,111 @@ p {
     margin-left: 60px;
 }
 
-.navbar-nav a{
+.has-submenu:after {
+    content: '';
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border: 5px solid transparent;
+    border-top-color: #3d3d3d;
+    position: relative;
+    left: 3px;
+    bottom: -2px;
+
+}
+
+.has-submenu.active:after {
+    border-top-color: #f1ad1d;
+}
+
+.navbar-nav a {
+    font-family: 'Lato', sans-serif;
     color: #3d3d3d;
     text-decoration: none;
     /*margin-left: 60px;*/
 }
 
-.active a{
+.active a {
     color: #f1ad1d;
 }
+
 .what-they-say-2 {
     padding: 75px 0;
     text-align: center;
 }
-.what-they-say__gallery{
+
+.what-they-say__gallery {
     float: left;
     width: 570px;
 }
-.what-they-say__text{
+
+.what-they-say__text {
     float: right;
     width: 570px;
-}
- .what-they-say__gallery img {
-    padding: 0 30px 20px 0;
-     float: left;
-
-}
-.what-they-say__gallery img:nth-of-type(2n) {
-    padding-right: 0;
-}
-.what-they-say__gallery img:nth-last-of-type(-n+2) {
-    padding-bottom: 0;
+    text-align: justify;
 }
 
+.what-they-say__text h3 {
+    margin-bottom: 26px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.what-they-say__text p {
+    margin-bottom: 35px;
+    line-height: 1.4;
+}
+
+.what-they-say__gallery-item {
+    margin: 0 30px 20px 0;
+    float: left;
+    position: relative;
+
+}
+
+.what-they-say__gallery-item:nth-of-type(2n) {
+    margin-right: 0;
+}
+
+.what-they-say__gallery-item:nth-last-of-type(-n+2) {
+    margin-bottom: 0;
+}
+
+.what-they-say__gallery-item-text {
+    width: 117px;
+    position: absolute;
+    display: none;
+    left: 15px;
+    bottom: 10px;
+    padding: 15px 0 15px 15px;
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+}
+.what-they-say__gallery-item:hover .what-they-say__gallery-item-text {
+    display: block;
+}
+.btn {
+    display: inline-block;
+    padding: 20px 27px;
+    background-color: #f1ad1d;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+.slogan {
+    position: relative;
+    background-image: url("../img/bg-slogan.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0 95px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.slogan .section-header{
+    color: #fff;
+}
+.our-team{
+    padding: 100px 0;
+}
