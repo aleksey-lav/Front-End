@@ -1,26 +1,43 @@
+@font-face {
+    font-family: 'Verdana', sans-serif;
+    src: url("../fonts/Verdana/Verdana.ttf");
+}
 
 body {
     margin: 0px;
     padding: 0px;
-    background: url("../img/bg.jpg");
-    height: 100vh;
-    background-size: cover;
-}
-h1, h2 {
-    font-family: 'Verdana', sans-serif;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-h1{
-    font-size: 29px;
 
 }
-h2 {
-    font-size: 18px;
+.main{
+    width: 1366px;
+    height: 768px;
+    background: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
 }
 .logo{
-    float: left;
+    display: inline-block;
+}
+.logo-text {
+    margin: 0;
+    text-transform: uppercase;
 }
 .text-header{
     display: inline-block;
 }
+h1,h2,p{
+    color: #ffffff;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 18px;
+    text-align: center;
+}
+.header{
+    margin: 49px auto;
+}
+
+
