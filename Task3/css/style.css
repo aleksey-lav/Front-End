@@ -2,7 +2,9 @@
     font-family: 'Verdana', sans-serif;
     src: url("../fonts/Verdana/Verdana.ttf");
 }
-
+*{
+    font-family: 'Verdana', sans-serif;
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -15,6 +17,7 @@ body {
     background-size: cover;
     background-position: center;
     margin: 0 auto;
+    margin-top: 100px;
 }
 .logo{
     display: inline-block;
@@ -25,6 +28,7 @@ body {
 }
 .text-header{
     display: inline-block;
+    margin-left: 5px;
 }
 h1,h2,p{
     color: #ffffff;
@@ -36,8 +40,26 @@ h2{
     font-size: 18px;
     text-align: center;
 }
-.header{
-    margin: 49px auto;
+
+.contact-mail{
+    display: inline-block;
+    float: right;
+
+}
+.container{
+    padding: 49px 155px;
+}
+p {
+    font-size: 18px;
+    margin-top: 0;
+    display: block;
+}
+.text-mail{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.text-tel{
+    text-align: right;
 }
 
 
