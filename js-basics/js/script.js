@@ -74,3 +74,19 @@
 //     console.log(a);
 // } while (a<5);
 
+// let letter = prompt('Введите букву','');
+// alert(letter.charCodeAt(letter));
+
+let string = prompt('enter phrase', '');
+let result = '';
+for (let i = 0; i < string.length; i++){
+    let newChar = ' ';
+    if(string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90){
+
+        let newCharCode = (string.charCodeAt(i) - 65 + 13) % 26 + 65;
+        let newChar = String.fromCharCode(newCharCode);
+    }
+    result += newChar;
+}
+alert(result);
+
