@@ -77,7 +77,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-content: space-between;
+
 }
 
 a{
@@ -92,6 +92,7 @@ h3{
 .image-container{
     height: 200px;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 .orange-price{
     background-color: #f26522;
@@ -100,7 +101,7 @@ h3{
 }
 .image-container:hover .orange-price{
     opacity: 1;
-    transform: translateY(-63px);
+    transform: translateY(-66px);
     animation: anim .3s ease-out;
 }
 .description{
