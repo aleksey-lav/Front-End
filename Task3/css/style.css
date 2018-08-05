@@ -25,6 +25,23 @@ body {
     overflow: hidden;
 }
 
+a.logo-link {
+    display: inline-block;
+}
+.logo-image-white{
+    display: inline-block;
+    background: url("../img/logo.png") no-repeat;
+    width: 46px;
+    height: 46px;
+    background-size: cover;
+}
+a.logo-link:hover .text-header .logo-text{
+     color: #f26522;
+}
+a.logo-link:hover .logo-image-white{
+    background-image: url("../img/Logo-Milan-hover.png");
+}
+
 .logo_with_text{
     display: inline-block;
 }
@@ -59,8 +76,11 @@ h1{
     float: right;
 
 }
+.tours-container{
+    margin-top: -48px;
+}
 .container{
-    padding: 49px 155px;
+    padding: 48px 155px;
 }
 p {
     margin-top: 0;
@@ -92,12 +112,16 @@ h3{
 .image-container{
     height: 200px;
     overflow: hidden;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .orange-price{
     background-color: #f26522;
     height: 63px;
-
+}
+.orange-price-text{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 21px;
 }
 .image-container:hover .orange-price{
     opacity: 1;
@@ -108,4 +132,25 @@ h3{
     margin-top: 20px;
     margin-bottom: 58px;
 }
-
+.what-tours{
+    text-align: center;
+    margin-bottom: 60px;
+}
+h3.what-tours:hover{
+    color: #f26522;
+}
+.copyright{
+    font-size: 12px;
+    margin-top: -20px;
+    text-align: center;
+}
+.orange-price-cost{
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 18px;
+}
+.view-details{
+    font-size: 14px;
+    margin-left: 100px;
+    /*display: inline-block;*/
+}
