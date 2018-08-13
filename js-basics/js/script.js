@@ -77,16 +77,115 @@
 // let letter = prompt('Введите букву','');
 // alert(letter.charCodeAt(letter));
 
-let string = prompt('enter phrase', '');
-let result = '';
-for (let i = 0; i < string.length; i++){
-    let newChar = ' ';
-    if(string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90){
+// let string = prompt('enter phrase', '');
+// let result = '';
+// for (let i = 0; i < string.length; i++){
+//     let newChar = ' ';
+//     if(string.charCodeAt(i) >= 65 && string.charCodeAt(i) <= 90){
+//
+//         let newCharCode = (string.charCodeAt(i) - 65 + 13) % 26 + 65;
+//         let newChar = String.fromCharCode(newCharCode);
+//     }
+//     result += newChar;
+// }
+// alert(result);
 
-        let newCharCode = (string.charCodeAt(i) - 65 + 13) % 26 + 65;
-        let newChar = String.fromCharCode(newCharCode);
-    }
-    result += newChar;
-}
-alert(result);
+
+// let str = prompt('enter Mn,Tue,Wed,Th,Fr,Sat or Sun', '');
+// switch (str){
+//     case 'Mn':
+//         alert("This a Monday, bro");
+//         break;
+//     case 'Tue':
+//         alert("This a Tuesday, bro");
+//         break;
+//     case 'Wed':
+//         alert("This a Wednesday, bro");
+//         break;
+//     case 'Th':
+//          alert("This a Thursday, bro");
+//         break;
+//     case 'Fri':
+//         alert('This is a Friday');
+//         break;
+//     case 'Sat':
+//         alert('This a Saturday');
+//         break;
+//     case 'Sun':
+//         alert('This a Sunday');
+//         break;
+//     default:
+//         alert('Input one of them (Mn,Tue,Wed,Th,Fr,Sat or Sun)');
+//         str = prompt('enter Mn,Tue,Wed,Th,Fr,Sat or Sun', '');
+//         break;
+// }
+
+
+//PALINDROME
+
+// function palindrome(str){
+// for (let i = 0; i < str.length; i++) {
+//         if (str.charCodeAt(i) != str.charCodeAt((str.length - i - 1)))
+//             return false;
+//     }
+//     return true;
+// }
+
+//Обрезание строки
+
+// function truncate(str, length) {
+//     if (length < 3){
+//         return false;
+//     }
+//     if (str.length <= length){
+//         return str;
+//     }
+//     else{
+//         let res = str.substr(0, length-3);
+//         return res + '...';
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

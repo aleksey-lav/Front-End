@@ -115,6 +115,9 @@ p {
     overflow: hidden;
     margin-bottom: 20px;
 }
+.image-container .orange-price{
+    transition: transform 1s;
+}
 /*создание оранжевых окон внутри картинок*/
 .orange-price{
     background-color: #f26522;
@@ -169,4 +172,5 @@ h3.what-tours:hover{
     margin-left: 10px;
     font-size: 14px;
 }
+
 

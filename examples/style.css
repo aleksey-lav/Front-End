@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    /*работает для одной строки*/
+
+    /*text-align: center;*/
+    /*line-height: 100%;*/
+
+}
+
