@@ -33,7 +33,62 @@
 //
 // }
 
-function randomDice() {
+// function randomDice() {
+//
+//     Math.round((Math.random() * 5 + 1));
+// }
 
-    Math.round((Math.random() * 5 + 1));
+// Task 1
+
+let name = prompt("Your name?", "");
+let age = prompt("Your age?", "");
+
+if(age < 18){
+    alert("You are not allowed to visit this website");
 }
+else if(age > 18 && age <= 22){
+    let resultUnswer = alert(confirm("Are you sure you want to continue?"));
+    if (!resultUnswer){
+        alert("Welcome " + name);
+    }
+    else{
+        alert("You are not allowed to visit this website");
+    }
+}
+else {
+    alert("Welcome dear " + name);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
