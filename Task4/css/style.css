@@ -19,6 +19,7 @@ body{
 }
 a{
     text-decoration: none;
+
 }
 .header{
     width: 100vw;
@@ -122,31 +123,79 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 15px;
 
 }
 .all-buttons{
     width: 157px;
     height: 46px;
-    border-radius: 3px;
-
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 
 }
 .fb-button{
-
     background-color:  #305db8;
 
-    /*margin-left: -8px;*/
 }
 .google-button{
     background-color:  #df4a32;
 
 }
+.name-button{
+    font-size: 16px;
+}
+.entry-icon{
+    font-size: 18px;
+}
+.fb-pipe{
+    opacity: 0.1;
+}
+.or{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    color: #848484;
+    align-items: center;
 
-.grey-line{
-    border-bottom: 1px solid #848484;;
-    /*background: rgba(0,0,0,.2);*/
 
 }
+.or::before{
+    display: inline-block;
+    content: '';
+    width: 135px;
+    height: 1px;
+    background: #848484;
+    opacity: 0.3;
+}
+.or::after{
+    display: block;
+    content: '';
+    width: 135px;
+    height: 1px;
+    background: #848484;
+    opacity: 0.3;
+}
+.all-input-forms{
+    margin-top: 10px;
 
 
+}
+.input-form-action{
+    width: 301px;
+    height: 40px;
+    border-radius: 4px;
+    opacity: .6;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.all-input-forms input{
+    padding-left: 17px;
+}
+.form-action{
+
+}
