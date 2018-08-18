@@ -163,8 +163,7 @@ a{
     margin-top: 25px;
     color: #848484;
     align-items: center;
-
-
+    /*font-style: italic;*/
 }
 .or::before{
     display: inline-block;
