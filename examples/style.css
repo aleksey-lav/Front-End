@@ -1,31 +1,101 @@
-*{
+body{
     margin: 0;
     padding: 0;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    min-height: 100vh;
 
 }
 .container{
-    width: 100vw;
-    height: 100vh;
-    background-color: #eeeeee;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: #769261;
 }
-.item {
-    width: 100px;
-    height: 100px;
+/*.item {
+    width: 100%;
+    height: 100%;
     background-color: #f0f;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    !*работает для одной строки*!
+
+    !*text-align: center;*!
+    !*line-height: 100%;*!
+    !*transition-duration: 1s;*!
+    !*transform-origin: left bottom;*!
+    transition: transform 0.5s cubic-bezier(.47,-.44,.49,1.46);
+    transform-origin: left bottom;
 
 
-
-    /*работает для одной строки*/
-
-    /*text-align: center;*/
-    /*line-height: 100%;*/
-
+}*/
+/*.container:hover .item{
+    transform: rotate(90deg);
+    transform-origin: left bottom;
+}*/
+.animated-block{
+    width: 100%;
+    height: 100%;
+    background-color: #007bff;
+    animation: move-to-left infinite linear 2s;
+   /* animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-play-state: running;*/
+}
+.animated-block:hover{
+    animation-play-state: paused;
+}
+@keyframes move-to-left {
+    0% {
+        transform: rotate(0deg);
+        left: 0;
+    }
+    25%{
+        transform: rotate(360deg);
+        left: 314px;
+    }
+    50%{
+        transform: rotate(720deg);
+        left: 628px;
+    }
+    75%{
+        transform: rotate(1080deg);
+        left: 942px;
+    }
+    100%{
+        transform: rotate(1440deg);
+        left: 1200px;
+    }
+}
+.road{
+    height: 3px;
+    width: 1256px;
+    background-color: #333333;
 }
 
+.wheel{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid grey;
+    position: relative;
+    animation: move-to-left alternate infinite linear 10s;
+
+
+}
+.spica {
+    width: 100%;
+    height: 1px;
+    background-color: #007bff;
+    position: absolute;
+    top: 50%;
+}
+
+.spica:nth-of-type(2){
+    transform: rotate(60deg);
+}
+.spica:nth-of-type(3){
+    transform: rotate(120deg);
+}
