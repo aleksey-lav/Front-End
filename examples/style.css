@@ -6,7 +6,9 @@ body{
     align-items: center;*/
     min-height: 100vh;
 
+
 }
+
 .container{
     width: 200px;
     height: 200px;
@@ -81,7 +83,7 @@ body{
     background-color: #ffffff;
     border: 1px solid grey;
     position: relative;
-    animation: move-to-left alternate infinite linear 10s;
+    animation: move-to-left alternate infinite linear 5s;
 
 
 }

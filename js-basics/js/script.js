@@ -150,8 +150,14 @@
 
 
 
+function arrayPow(arr) {
 
+    arr.forEach(function (value, index) {
+        arr[index] = value ** index;
+    });
+    return arr;
 
+}
 
 
 
