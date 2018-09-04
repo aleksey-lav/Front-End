@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Arimo', sans-serif;
+    src: url("../fonts/Arimo/Arimo-Regular.ttf");
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.container{
+    border: 25px solid rgb(55, 71, 101);
+    /*outline: 22px solid #3a4965;*/
+    display: flex;
+    width: 1192px;
+    height: 736px;
+
+}
+th{
+    font-size: 24px;
+    font-weight: bold;
+    color: #eeeeee;
+    text-transform: uppercase;
+    /*border: 1px solid #464646;*/
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+tr {
+    border: 1px solid #646464;
+}
+.standart_text{
+    background: #89c331;
+}
+.ultimate_text{
+    background:  #f04a56;
+}
+.premium_text{
+    background:  #20807c;
+}
+tbody tr:nth-of-type(odd) {
+    background-color: #eee;
+}
+tbody tr:nth-of-type(even) {
+    background-color: #fff;
+}
+tbody tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+    font-weight: 700;
+}
+td {
+    border: 1px solid rgb(244, 244, 244);
+    padding: 5px;
+    height: 69px;
+}

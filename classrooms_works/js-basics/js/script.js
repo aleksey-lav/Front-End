@@ -150,20 +150,33 @@
 
 
 
-function arrayPow(arr) {
+/*function arrayPow(arr) {
 
     arr.forEach(function (value, index) {
         arr[index] = value ** index;
     });
     return arr;
 
-}
+}*/
+
+
+/*function arrayPow2(arr) {
+
+    let result = arr.map(function (value, index) {
+        return value ** index;
+    })
+    return result;
+}*/
 
 
 
-
-
-
+// function dateWithoutZeroes(date) {
+//
+//
+//
+//
+//
+// }
 
 
 

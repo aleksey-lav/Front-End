@@ -39,33 +39,46 @@
 // }
 
 // Task 1
-function task1() {
-    let name = prompt("Your name?", "");
-    let age = prompt("Your age?", "");
-        if (age < 18) {
-            alert("You are not allowed to visit this website");
-        }
-        else if (age > 18 && age <= 22) {
-            alert(confirm("Are you sure you want to continue?"));
-            if (!resultUnswer) {
-                alert("Welcome " + name);
-            }
-            else {
-                alert("You are not allowed to visit this website");
-            }
-        }
-        else {
-            alert("Welcome dear " + name);
-        }
-    task1();
+// function task1() {
+//     let name = prompt("Your name?", "");
+//     let age = prompt("Your age?", "");
+//         if (age < 18) {
+//             alert("You are not allowed to visit this website");
+//         }
+//         else if (age > 18 && age <= 22) {
+//             alert(confirm("Are you sure you want to continue?"));
+//             if (!resultUnswer) {
+//                 alert("Welcome " + name);
+//             }
+//             else {
+//                 alert("You are not allowed to visit this website");
+//             }
+//         }
+//         else {
+//             alert("Welcome dear " + name);
+//         }
+//     task1();
+// }
+
+
+
+
+
+// function roundNumber(number, digits) {
+//
+//     if(Number.isInteger(number)){
+//         return number.toFixed();
+//     }
+//     else {
+//         return Number.parseFloat(number).toFixed(digits);
+//     }
+// }
+
+
+function roundToLargest(number) {
+
+    return Math.round(number);
 }
-
-
-
-
-
-
-
 
 
 
