@@ -38,7 +38,7 @@ function getPlanet(url) {
     })
 }
 
-getPlanet('https://swapi.co/api/planets/').then((data) => {
+getPlanet('https://api.ipapi.com/api/95.158.36.92').then((data) => {
     console.log(data);
     return getPlanet(data.next);
 }, (error) => {
